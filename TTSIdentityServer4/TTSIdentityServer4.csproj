@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-TTSIdentityServer4-D2D2DC97-EC2B-4B6B-A274-D63476752684</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Certificate\idsrv3test.pfx" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
+    <PackageReference Include="IdentityServer4.AspNetIdentity" Version="2.1.0" />
+    <PackageReference Include="IdentityServer4.EntityFramework" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.2" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Certificate\idsrv3test.pfx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DataProtection">
+      <HintPath>..\..\..\..\Desktop\BuildingBlocks\DataProtection\DataProtection\bin\Debug\netstandard1.5\DataProtection.dll</HintPath>
+    </Reference>
+    <Reference Include="Resilience.Http">
+      <HintPath>..\..\..\..\Desktop\BuildingBlocks\Resilience\Resilience.Http\bin\Debug\netstandard2.0\Resilience.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="WebHost.Customization">
+      <HintPath>..\..\..\..\Desktop\BuildingBlocks\WebHostCustomization\WebHost.Customization\bin\Debug\netcoreapp2.0\WebHost.Customization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

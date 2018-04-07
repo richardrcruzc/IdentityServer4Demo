@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTSIdentityServer4", "TTSIdentityServer4\TTSIdentityServer4.csproj", "{912728EA-6474-41CA-82F0-E0AE22AD7815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{00B1AC9D-34C4-4804-BE37-02D24E0D4A83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{912728EA-6474-41CA-82F0-E0AE22AD7815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912728EA-6474-41CA-82F0-E0AE22AD7815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912728EA-6474-41CA-82F0-E0AE22AD7815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912728EA-6474-41CA-82F0-E0AE22AD7815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B1AC9D-34C4-4804-BE37-02D24E0D4A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B1AC9D-34C4-4804-BE37-02D24E0D4A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B1AC9D-34C4-4804-BE37-02D24E0D4A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B1AC9D-34C4-4804-BE37-02D24E0D4A83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D1B0C0C-CE04-4730-9391-07CAAA42FF20}
+	EndGlobalSection
+EndGlobal

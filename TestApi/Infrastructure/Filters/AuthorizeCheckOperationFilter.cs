@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Swashbuckle.AspNetCore.Swagger;
-using Swashbuckle.AspNetCore.Swagger.SwaggerGen;
+using Swashbuckle.AspNetCore.Swagger; 
+using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Collections.Generic;
 using System.Linq;
 

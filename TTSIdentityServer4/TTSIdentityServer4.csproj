@@ -31,13 +31,13 @@
 
   <ItemGroup>
     <Reference Include="DataProtection">
-      <HintPath>..\..\..\..\Desktop\BuildingBlocks\DataProtection\DataProtection\bin\Debug\netstandard1.5\DataProtection.dll</HintPath>
+      <HintPath>..\packages\DataProtection\DataProtection.dll</HintPath>
     </Reference>
     <Reference Include="Resilience.Http">
-      <HintPath>..\..\..\..\Desktop\BuildingBlocks\Resilience\Resilience.Http\bin\Debug\netstandard2.0\Resilience.Http.dll</HintPath>
+      <HintPath>..\packages\Resilience.Http\Resilience.Http.dll</HintPath>
     </Reference>
     <Reference Include="WebHost.Customization">
-      <HintPath>..\..\..\..\Desktop\BuildingBlocks\WebHostCustomization\WebHost.Customization\bin\Debug\netcoreapp2.0\WebHost.Customization.dll</HintPath>
+      <HintPath>..\packages\WebHost.Customization\WebHost.Customization.dll</HintPath>
     </Reference>
   </ItemGroup>
 
